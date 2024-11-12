@@ -1,4 +1,3 @@
-# Clase Asiento
 class Asiento:
     def __init__(self, color, registro, precio):
         self.color = color
@@ -9,7 +8,6 @@ class Asiento:
         if nuevoColor in ["rojo", "verde", "amarillo", "negro", "blanco"]:
             self.color = nuevoColor
 
-# Clase Motor
 class Motor:
     def __init__(self, numeroCilindros, tipo, registro):
         self.numeroCilindros = numeroCilindros
@@ -22,7 +20,7 @@ class Motor:
     def asignarTipo(self, nuevoTipo):
         if nuevoTipo in ["electrico", "gasolina"]:
             self.tipo = nuevoTipo
-
+            
 # Clase Auto
 class Auto:
     cantidadCreados = 0
@@ -33,3 +31,4 @@ class Auto:
         self.asientos = []
         self.marca = marca
         self.motor
+        self.registro = registro
