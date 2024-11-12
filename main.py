@@ -5,7 +5,7 @@ class Asiento:
          self.registro = registro
          
      def cambiarColor(self, nuevoColor):
-        if nuevoColor == "rojo" or color == "verde" or color == "amarillo" or color == "negro" or color == "blanco":
+        if nuevoColor == "rojo" or nuevoColor == "verde" or nuevoColor == "amarillo" or nuevoColor == "negro" or nuevoColor == "blanco":
              self.color = nuevoColor
 
 class Auto:
@@ -46,7 +46,7 @@ class Motor:
          self.registro = registro
 
      def asignarTipo(self,nuevoTipo):
-         if nuevoTipo == "electrico" or tipo == "gasolina":
+         if nuevoTipo == "electrico" or nuevoTipo == "gasolina":
              self.tipo = nuevoTipo
 
      
